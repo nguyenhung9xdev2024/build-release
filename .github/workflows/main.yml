@@ -11,7 +11,8 @@ on:
     types: [published]
   push:
     branches:
-      - master   
+      - master
+  workflow_dispatch:    
   schedule:
     - cron: 0 8 * * 5
   watch:
